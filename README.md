@@ -13,14 +13,14 @@ Here, we have used the popular MNIST dataset which contains handwritten digits c
 ## List of Hyperparamters to be tested
 1) Epochs = [10,50,100,200,500,1000]
 2) Batch size = [28,64,128.256,512]
-3) Learning Rate = [0.001,0.01,0.1,0.5,1]
+3) Learning Rate = [0.001,0.01,0.1,0.5,0.9]
 4) Optimizers = [SGD,Adam,RMSprop,Adagrad]
 
 ## Approach while conducting this experiment
 Changing all the hyperparameters at the same time would create intricate graphs and not really give us the impact that each hyperparameter has on the model.so firstly we will create a base model on top of which we will vary the respective hyperparameters
 
 1) Create a base model with fixed hyperparameters
-2) Experiment 1- Varying Epoch count
-3) Experiment 2- Varying Batch size
-4) Experiment 3- Varying Learning Rate
+2) Experiment 1- Varying Learning Rate
+3) Experiment 2- Varying Epoch count
+3) Experiment 3- Varying Batch size
 5) Experiment 4- Varying Optimizing Algorithm
